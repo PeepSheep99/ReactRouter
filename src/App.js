@@ -15,6 +15,7 @@ function App() {
       <div className="App">
           <Nav />
           <Switch>
+            <Route exact path='/ReactRouter' component={home}/>
             <Route exact path='/' component={home}/>
             <Route exact path='/about' component={about}/>
             <Route exact path='/contact' component={contact}/>   
